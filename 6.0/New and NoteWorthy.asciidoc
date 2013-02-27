@@ -40,7 +40,7 @@ Authoring
 ^^^^^^^^^
 The "Authoring" view allows "Knowledge Projects" (KProjects) to be created and rule assets created and maintained.
 
-The "Project Explorer" is shown by default on the left-hand-side. The "Project Explorer" allows you to navigate repositories, projects, packages and files hierachically. "System" files and folders are hidden from view.
+The "Project Explorer" is shown by default on the left-hand-side. The "Project Explorer" allows you to navigate repositories, projects, packages and files hierarchically. "System" files and folders are hidden from view.
 
 NOTE: The "Project Explorer" can be opened from the menu-bar on the "Authoring" view if it is closed.
 
@@ -48,9 +48,9 @@ Creating a new project
 ++++++++++++++++++++++
 . Open the "Authoring" view
 . Open the "Project Explorer" if it is not already visible
-. Click on the repsoitory in which you want to create the project within the "Project Explorer"
+. Click on the repository in which you want to create the project within the "Project Explorer"
 . Click on "New" from the menu-bar
-. Click on "New Project" radio-button in the "New" popup dialog
+. Click on "New Project" radio-button in the "New" pop-up dialog
 . Enter the mandatory details
   .. Enter a name for the Project
 . Click "OK"
@@ -67,7 +67,7 @@ Creating a new fact model
 . Click on the project created above in the "Project Explorer"
 . Click on the "Resources" folder within your project structure
 . Click on "New" from the menu-bar
-. Click on "New Declarative Model" radio-button in the "New" popup dialog
+. Click on "New Declarative Model" radio-button in the "New" pop-up dialog
 . Enter the mandatory details
   .. Enter a name for the model
 . Click "OK"
@@ -81,7 +81,7 @@ Creating a new rule
 . Click on the project created above in the "Project Explorer"
 . Click on the "Resources" folder within your project structure
 . Click on "New" from the menu-bar
-. Click on "New Guided Rule" radio-button in the "New" popup dialog
+. Click on "New Guided Rule" radio-button in the "New" pop-up dialog
 . Enter the mandatory details
   .. Enter a name for the rule
 . Click "OK"
