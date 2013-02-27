@@ -1,0 +1,111 @@
+Quick Start
+-----------
+
+kie-ide
+-------
+.Deployment
+Deploy the applicable distribution WAR to your application server.
+
+.Log-in
+The default login is admin/admin.
+
+.Layout
+Once logged in your web-browser page will consist of the a menu-bar across the top and a main section below. 
+
+The content of the menu-bar is contextually aware; i.e the menu items shown depend upon which editor or screen tab you have selected.
+
+The home screen is the default view (see below) that contains a summary of functions that are available to the user.
+
+NOTE: Some menu-items are always accessible. For example "log out". 
+
+Repositories
+~~~~~~~~~~~~
+kie-ide has the concept of "repositories". Each repository is a clone of a git repository.
+
+A dummy/test repository is configured "out of the box" but others can be added using the "Administration" view (see below).
+
+There are two main ways to view a repository: One is to use the "Administration" view (see below) or the "Authoring" view (see below).
+
+Views
+~~~~~
+Views, or "perspectives", represent a set of related editors that allow the user to perform a set of related operations.
+
+Some views consist of single editor whereas others consist of many. Editors can be repositioned by "dragging" them by their respective "tab" and dropped. Editors can also be resized using the "splitter" bars. 
+
+Home
+^^^^
+The "Home" view represents the "landing page" for the application from which common operations can be easily accessed.
+
+Authoring
+^^^^^^^^^
+The "Authoring" view allows "Knowledge Projects" (KProjects) to be created and rule assets created and maintained.
+
+The "Project Explorer" is shown by default on the left-hand-side. The "Project Explorer" allows you to navigate repositories, projects, packages and files hierachically. "System" files and folders are hidden from view.
+
+NOTE: The "Project Explorer" can be opened from the menu-bar on the "Authoring" view if it is closed.
+
+Creating a new project
+++++++++++++++++++++++
+. Open the "Authoring" view
+. Open the "Project Explorer" if it is not already visible
+. Click on the repsoitory in which you want to create the project within the "Project Explorer"
+. Click on "New" from the menu-bar
+. Click on "New Project" radio-button in the "New" popup dialog
+. Enter the mandatory details
+  .. Enter a name for the Project
+. Click "OK"
+. The "Project Explorer" refreshes to show the new project
+. The "Project Editor" opens
+. Enter the mandatory project details
+  .. Maven "Group" identifier (e.g. "org.mycompany")
+  .. Maven "Artifact" identifier (e.g. "kietest")
+  .. Maven "Version" identifier (e.g. "0.0.1-SNAPSHOT")
+. Click "File->Save" from the menu-bar
+
+Creating a new fact model
++++++++++++++++++++++++++
+. Click on the project created above in the "Project Explorer"
+. Click on the "Resources" folder within your project structure
+. Click on "New" from the menu-bar
+. Click on "New Declarative Model" radio-button in the "New" popup dialog
+. Enter the mandatory details
+  .. Enter a name for the model
+. Click "OK"
+. The "Project Explorer" refreshes to show the new model file
+. The "Declarative Model Editor" opens
+. Define your model 
+. Click "File->Save" from the menu-bar
+
+Creating a new rule
++++++++++++++++++++
+. Click on the project created above in the "Project Explorer"
+. Click on the "Resources" folder within your project structure
+. Click on "New" from the menu-bar
+. Click on "New Guided Rule" radio-button in the "New" popup dialog
+. Enter the mandatory details
+  .. Enter a name for the rule
+. Click "OK"
+. The "Project Explorer" refreshes to show the new rule file
+. The "Guided Rule Editor" opens
+. Define your rule 
+. Click "File->Save" from the menu-bar
+ 
+Building the project 
+++++++++++++++++++++
+. Click on the project created above in the "Project Explorer"
+. Click "Build" from the menu-bar
+. Errors occurring during the build will be shown in a "Problems" panel 
+
+NOTE: The Project's "Resources" folder represents the default "package". Child packages can be created within the "Resources" folder and rule resources created within those if required. 
+
+NOTE: Rule resources can only be created within a Project's "Resources" folder or sub-packages. If you have not selected a Project's "Resources" folder, or a sub-package, the "New" dialog will disable the creation of rule resources.
+
+
+Administration
+^^^^^^^^^^^^^^
+The "Administration" view allows a user, who has ADMIN permissions, to create and clone new repositories.
+
+The "File Explorer" is shown by default on the left-hand-side. The "File Explorer" allows you to navigate repositories, folders and files hierachically. "System" files and folders are not hidden from view.
+
+NOTE: The "File Explorer" can be opened from the menu-bar on the "Administration" view if it is closed.
+
